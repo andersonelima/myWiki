@@ -4,10 +4,24 @@ body, html {
     font-family: sans-serif;
     font-size: calc(1em * 0.9);
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
-h1{font-size: 2em; margin: 15px 0;}
-small{ font-style: italic;}
+
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color:blue; 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em; 
+    margin: 15px 0;
+}
+
+small { font-style: italic;}
+
 /*
 header{
     border: #000 solid 1px;
@@ -21,17 +35,17 @@ footer{
     border: #00ff00 solid 1px;
     height: 40px;
 }*/
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     margin: 0;
 }
-nav ul li a{
+nav ul li a {
     padding: 10px 15px;
     color: #ff0000;
     text-decoration: none;
 }
-nav ul li a:hover{
+nav ul li a:hover {
     color: #fff;
     background-color: red;
     border-radius: 10%;
@@ -41,8 +55,14 @@ figure {
     margin: 0;
     margin-bottom: 10px;
 }
-section figure img{
+section figure img {
     width: 100%;
+}
+blockquote {
+    background-color: #ededed;
+    padding: 10px;
+    border-left: solid 2px #fe7373;
+    font-style: italic;
 }
 
 /**
@@ -73,21 +93,29 @@ section figure img{
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
-.anchors table tr{
+.anchors table tr {
     font-size: 0.8em;
     text-align: left;
 }
-.anchors ul li{
+.anchors ul li {
     padding: 5px 0;    
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
-.t1{
+.sidebar ul li{
+    padding-bottom: 10px;
+}
+
+.t1 {
     margin-bottom: 0;
     border-bottom: #cdcdcd solid 1px;
 }
-.t1 span{
+.t1 span {
     padding-right: 10px;
     border-bottom: #f60000 solid 1px;
+}
+
+#bibliografia + ul li {
+    list-style: inside;
 }
